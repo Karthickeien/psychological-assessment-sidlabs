@@ -1,0 +1,109 @@
+.hero-banner {
+  padding: 4rem 1rem;
+  background-color: white;
+}
+
+.hero-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero-title .highlight {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.hero-description {
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.circle-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.circle-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;
+}
+
+.cta-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: transform var(--transition-duration),
+              background-color var(--transition-duration);
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  background-color: #0B7C6B;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  color: var(--primary-color);
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.hero-image {
+  position: relative;
+  min-height: 200px;
+}
+  
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-text {
+    text-align: left;
+    flex: 1;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+  }
+}
