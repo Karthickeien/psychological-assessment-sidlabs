@@ -1,2 +1,2 @@
-# psychological-assessment-sidlabs
+# Psychological-Assessment-Sidlabs
 Psychological Assessment Tool Assignment: Sidlabs
