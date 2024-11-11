@@ -9,7 +9,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 ![Maintenance](https://img.shields.io/maintenance/yes/2024)
 
-## Deployed Link🔗
+## 🔗 Deployed Link
+[Psychological Assessment Platform](https://psychological-assessment-sidlabs.vercel.app/)
 
 
 ## 🛠️ Technology Stack
